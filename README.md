@@ -1,0 +1,2 @@
+# Simple Emote Hoster
+soon... ™

@@ -1,0 +1,37 @@
+{
+  "name": "simple-emote-hoster",
+  "version": "1.0.0-dev",
+  "description": "Simple emote hoster for Twitch",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node index.ts --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notdankenough/seh.git"
+  },
+  "keywords": [
+    "seh",
+    "twitch",
+    "emotes",
+    "selfhosted",
+    "typescript"
+  ],
+  "author": "NotDankEnough <hatesociety@pm.me> (https://hmmtodayiwill.ru/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/notdankenough/seh/issues"
+  },
+  "homepage": "https://github.com/notdankenough/seh#readme",
+  "dependencies": {
+    "@prisma/client": "^4.1.1",
+    "axios": "^0.27.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ws": "^5.0.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
